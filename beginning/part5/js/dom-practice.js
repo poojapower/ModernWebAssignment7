@@ -34,4 +34,11 @@ myButton.addEventListener("click",function(){
 
  
 //STEP 5
-//Refer document index.html Line no. 16 to 19
+
+window.addEventListener("load",function(){
+    var myButton=window.document.getElementById("btn3");
+    myButton.addEventListener("click",function(){
+        "use strict";
+        alert("I have been clicked");
+    });
+});
